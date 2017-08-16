@@ -42,5 +42,7 @@ public class Randomness {
             System.out.println( "The random numbers were different! Not too surprising, actually." );
         }
 
+        System.out.print("I pushed");
+
     }
 }
