@@ -3,7 +3,7 @@ import java.util.*;
 /**
  * Created by dk on 8/16/2017.
  */
-public class NumberGuessingwithaCounter {
+public class AgainwiththeNumberGuessing {
     public static void main(String[] args){
         Scanner keyBoard = new Scanner(System.in);
 
@@ -17,11 +17,16 @@ public class NumberGuessingwithaCounter {
         guess = keyBoard.nextInt();
 
         int count = 1;
-        while (guess != rNumber) {
-            System.out.print("That is incorrect. Guess again.\nYour guess: ");
-            guess = keyBoard.nextInt();
-            count++;
+        if (guess != rNumber) {
+
+            do {
+                System.out.print("That is incorrect. Guess again.\nYour guess: ");
+                guess = keyBoard.nextInt();
+                count++;
+            }
+            while (guess != rNumber);
         }
+
         System.out.print("That's right! You're a good guesser. Number of tries: " + count);
 
     }
