@@ -12,15 +12,22 @@ public class BabyNimAKAEmptythePiles {
         String choice;
         int removeNumber;
 
-        System.out.println("A: " + pile1 + "\t B: " + pile2 + "\t C: " + pile3);
-        System.out.print("Choose a pile: ");
-        choice = keyBoard.next();
-        System.out.print("How many to remove from Pile " + choice + ": ");
-        removeNumber = keyBoard.nextInt();
-
-        while(pile1 != 0 && pile2 != 0 && pile3 != 0){
+        do {
+            System.out.println("A: " + pile1 + "\t B: " + pile2 + "\t C: " + pile3);
+            System.out.print("\nChoose a pile: ");
+            choice = keyBoard.next();
+            System.out.print("How many to remove from Pile " + choice + ": ");
+            removeNumber = keyBoard.nextInt();
             if (choice.equals("A"))
+                pile1 = pile1 - removeNumber;
+            else if (choice.equals("B"))
+                pile2 = pile2 - removeNumber;
+            else if (choice.equals("C"))
+                pile3 = pile3 - removeNumber;
         }
+        while(pile1 != 0 || pile2 != 0 || pile3 != 0);
+
+        System.out.print("\nAll piles are empty. Good job!");
 
 
 
