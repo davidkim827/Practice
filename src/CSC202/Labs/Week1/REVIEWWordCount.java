@@ -1,4 +1,4 @@
-package CSC202.MiniProjects;
+package CSC202.Labs.Week1;
 
 
 import java.util.Scanner;
@@ -12,7 +12,7 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-public class WordCount {
+public class REVIEWWordCount {
     public static void main(String[] args) throws FileNotFoundException {
 
 

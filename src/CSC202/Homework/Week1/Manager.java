@@ -1,4 +1,4 @@
-package CSC202.Homework.Num1;
+package CSC202.Homework.Week1;
 
 /**
  * Created by dk on 8/30/2017.
@@ -33,7 +33,9 @@ public class Manager extends Employee {
         return "Manager : "+ super.toString() + "\n\tEarned: " + earnings();
     }
 
+    @Override
     public double earnings() {
+
         return _weeklySalary;
     }
 }

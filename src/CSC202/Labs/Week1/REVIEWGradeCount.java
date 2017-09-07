@@ -1,4 +1,4 @@
-package CSC202.MiniProjects;
+package CSC202.Labs.Week1;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Created by dk on 8/30/2017.
  */
-public class GradeCount {
+public class REVIEWGradeCount {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner keyBoard = new Scanner(System.in);
 

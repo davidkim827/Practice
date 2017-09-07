@@ -1,4 +1,4 @@
-package CSC202.Homework.Num1;
+package CSC202.Homework.Week1;
 
 /**
  * Created by dk on 8/30/2017.

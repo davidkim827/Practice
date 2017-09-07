@@ -1,4 +1,4 @@
-package CSC202.Homework.Num1;
+package CSC202.Homework.Week1;
 
 import java.io.*;
 import java.util.Scanner;

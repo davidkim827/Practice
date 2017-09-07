@@ -1,7 +1,9 @@
+package CSC202.Labs.Week1;
+
 import java.util.*;
 import java.util.Random;
 
-public class Array2DPrint{
+public class REVIEWArray2DPrint {
 
     public static void main(String[] args){
         Scanner keyBoard = new Scanner(System.in);
