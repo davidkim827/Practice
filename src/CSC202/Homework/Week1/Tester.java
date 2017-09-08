@@ -43,7 +43,5 @@ public class Tester {
         for (Employee employee : employees) {
             System.out.println(employee.toString());
         }
-
     }
-
 }
